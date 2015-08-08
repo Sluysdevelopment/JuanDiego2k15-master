@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900CEF961B27D89F00F5F5E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 900CEF951B27D89F00F5F5E1 /* main.m */; };
+		900CEF991B27D89F00F5F5E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 900CEF981B27D89F00F5F5E1 /* AppDelegate.m */; };
+		900CEF9C1B27D89F00F5F5E1 /* Juan_Diego.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 900CEF9A1B27D89F00F5F5E1 /* Juan_Diego.xcdatamodeld */; };
+		900CEFA71B27D89F00F5F5E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900CEFA61B27D89F00F5F5E1 /* Images.xcassets */; };
+		900CEFB61B27D89F00F5F5E1 /* Juan_DiegoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 900CEFB51B27D89F00F5F5E1 /* Juan_DiegoTests.m */; };
+		901426521B3B8CFA007B5339 /* popOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901426511B3B8CFA007B5339 /* popOverViewController.m */; };
+		901426581B3B8E2E007B5339 /* StreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901426571B3B8E2E007B5339 /* StreamViewController.m */; };
+		903144861B69D43700934EAB /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = 903144851B69D43700934EAB /* About.png */; };
+		903144881B69D44D00934EAB /* Grades2.png in Resources */ = {isa = PBXBuildFile; fileRef = 903144871B69D44D00934EAB /* Grades2.png */; };
+		9031448A1B69D45A00934EAB /* Flex.png in Resources */ = {isa = PBXBuildFile; fileRef = 903144891B69D45A00934EAB /* Flex.png */; };
+		9031448C1B69D46400934EAB /* fb_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9031448B1B69D46400934EAB /* fb_icon.png */; };
+		9031448E1B69D47000934EAB /* JDTV.png in Resources */ = {isa = PBXBuildFile; fileRef = 9031448D1B69D47000934EAB /* JDTV.png */; };
+		903144901B69D47900934EAB /* jdoutside.png in Resources */ = {isa = PBXBuildFile; fileRef = 9031448F1B69D47900934EAB /* jdoutside.png */; };
+		903144921B69D48200934EAB /* rss.png in Resources */ = {isa = PBXBuildFile; fileRef = 903144911B69D48200934EAB /* rss.png */; };
+		903144961B69D49400934EAB /* Twitter_logo_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 903144951B69D49400934EAB /* Twitter_logo_blue.png */; };
+		9037EA7D1B6EDAEE0011E027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9037EA7C1B6EDAEE0011E027 /* Main.storyboard */; };
+		9037EA831B6EF8B00011E027 /* splashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9037EA821B6EF8B00011E027 /* splashScreen.png */; };
+		906E57921B6F0EBC00D8B454 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 906E57911B6F0EBC00D8B454 /* LaunchScreen.xib */; };
+		906E579E1B6F51D900D8B454 /* jdicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 906E579D1B6F51D900D8B454 /* jdicon.png */; };
+		906E57A01B6F51E500D8B454 /* thecube.png in Resources */ = {isa = PBXBuildFile; fileRef = 906E579F1B6F51E500D8B454 /* thecube.png */; };
+		906E57A21B6F535B00D8B454 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 906E57A11B6F535B00D8B454 /* youtube.png */; };
+		906E57A41B6F539A00D8B454 /* Instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 906E57A31B6F539A00D8B454 /* Instagram.png */; };
+		90773B6A1B4525FD0017A770 /* Day.m in Sources */ = {isa = PBXBuildFile; fileRef = 90773B691B4525FD0017A770 /* Day.m */; };
+		907F52D81B4520E80003D84C /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907F52D71B4520E80003D84C /* SocialViewController.m */; };
+		907F52E01B4523100003D84C /* HomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907F52DF1B4523100003D84C /* HomepageViewController.m */; };
+		90BB0ECD1B68FC40004FBC84 /* Social.png in Resources */ = {isa = PBXBuildFile; fileRef = 90BB0ECC1B68FC40004FBC84 /* Social.png */; };
+		90C0A44C1B4527CB00F8C963 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0A44B1B4527CB00F8C963 /* HomeViewController.m */; };
+		90C0A4501B45283400F8C963 /* GoogCal.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0A44F1B45283400F8C963 /* GoogCal.m */; };
+		90C0A4561B45289300F8C963 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0A4551B45289300F8C963 /* ISO8601DateFormatter.m */; };
+		90C0A45A1B452D4A00F8C963 /* OnlineGradesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0A4591B452D4A00F8C963 /* OnlineGradesViewController.m */; };
+		90C0A45E1B452EB500F8C963 /* EVENTSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0A45D1B452EB500F8C963 /* EVENTSViewController.m */; };
+		90F599461B6F5F18009BA534 /* calendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F599451B6F5F18009BA534 /* calendarViewController.m */; };
+		90F5994A1B6FCA20009BA534 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F599491B6FCA20009BA534 /* AboutViewController.m */; };
+		90F5994E1B6FE1C7009BA534 /* borderpx.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F5994D1B6FE1C7009BA534 /* borderpx.png */; };
+		90F599521B6FE4CB009BA534 /* sig.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F599511B6FE4CB009BA534 /* sig.png */; };
+		90F599541B6FE556009BA534 /* Sig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F599531B6FE556009BA534 /* Sig2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900CEFB01B27D89F00F5F5E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900CEF881B27D89F00F5F5E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900CEF8F1B27D89F00F5F5E1;
+			remoteInfo = "Juan Diego";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		900CEF901B27D89F00F5F5E1 /* Juan Diego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Juan Diego.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900CEF941B27D89F00F5F5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900CEF951B27D89F00F5F5E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		900CEF971B27D89F00F5F5E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		900CEF981B27D89F00F5F5E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		900CEF9B1B27D89F00F5F5E1 /* Juan_Diego.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Juan_Diego.xcdatamodel; sourceTree = "<group>"; };
+		900CEFA61B27D89F00F5F5E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		900CEFAF1B27D89F00F5F5E1 /* Juan DiegoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Juan DiegoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900CEFB41B27D89F00F5F5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900CEFB51B27D89F00F5F5E1 /* Juan_DiegoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Juan_DiegoTests.m; sourceTree = "<group>"; };
+		901426511B3B8CFA007B5339 /* popOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popOverViewController.m; sourceTree = SOURCE_ROOT; };
+		901426541B3B8DFE007B5339 /* StreamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StreamViewController.h; sourceTree = "<group>"; };
+		901426571B3B8E2E007B5339 /* StreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StreamViewController.m; path = "Juan Diego.xcodeproj/../StreamViewController.m"; sourceTree = SOURCE_ROOT; };
+		903144851B69D43700934EAB /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = About.png; path = images/About.png; sourceTree = "<group>"; };
+		903144871B69D44D00934EAB /* Grades2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Grades2.png; path = images/Grades2.png; sourceTree = "<group>"; };
+		903144891B69D45A00934EAB /* Flex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flex.png; path = images/Flex.png; sourceTree = "<group>"; };
+		9031448B1B69D46400934EAB /* fb_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb_icon.png; path = images/fb_icon.png; sourceTree = "<group>"; };
+		9031448D1B69D47000934EAB /* JDTV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JDTV.png; path = images/JDTV.png; sourceTree = "<group>"; };
+		9031448F1B69D47900934EAB /* jdoutside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jdoutside.png; path = images/jdoutside.png; sourceTree = "<group>"; };
+		903144911B69D48200934EAB /* rss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rss.png; path = images/rss.png; sourceTree = "<group>"; };
+		903144951B69D49400934EAB /* Twitter_logo_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Twitter_logo_blue.png; path = images/Twitter_logo_blue.png; sourceTree = "<group>"; };
+		9037EA7C1B6EDAEE0011E027 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9037EA821B6EF8B00011E027 /* splashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splashScreen.png; path = images/splashScreen.png; sourceTree = "<group>"; };
+		906E57911B6F0EBC00D8B454 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		906E579D1B6F51D900D8B454 /* jdicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jdicon.png; path = images/jdicon.png; sourceTree = "<group>"; };
+		906E579F1B6F51E500D8B454 /* thecube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thecube.png; path = images/thecube.png; sourceTree = "<group>"; };
+		906E57A11B6F535B00D8B454 /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = youtube.png; path = images/youtube.png; sourceTree = "<group>"; };
+		906E57A31B6F539A00D8B454 /* Instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Instagram.png; path = images/Instagram.png; sourceTree = "<group>"; };
+		90773B691B4525FD0017A770 /* Day.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Day.m; path = "Juan Diego.xcodeproj/../Day.m"; sourceTree = SOURCE_ROOT; };
+		90773B6B1B45279F0017A770 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		907F52D71B4520E80003D84C /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialViewController.m; path = "Juan Diego.xcodeproj/../SocialViewController.m"; sourceTree = SOURCE_ROOT; };
+		907F52DE1B4523010003D84C /* HomepageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomepageViewController.h; sourceTree = "<group>"; };
+		907F52DF1B4523100003D84C /* HomepageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomepageViewController.m; path = "Juan Diego.xcodeproj/../HomepageViewController.m"; sourceTree = SOURCE_ROOT; };
+		907F52E21B4525DF0003D84C /* Day.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day.h; sourceTree = "<group>"; };
+		90BB0ECC1B68FC40004FBC84 /* Social.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Social.png; sourceTree = "<group>"; };
+		90C0A44B1B4527CB00F8C963 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = "Juan Diego.xcodeproj/../HomeViewController.m"; sourceTree = SOURCE_ROOT; };
+		90C0A44E1B45281B00F8C963 /* GoogCal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogCal.h; sourceTree = "<group>"; };
+		90C0A44F1B45283400F8C963 /* GoogCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoogCal.m; path = "Juan Diego.xcodeproj/../GoogCal.m"; sourceTree = SOURCE_ROOT; };
+		90C0A4531B45287E00F8C963 /* GoogleCalenderReader-Prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleCalenderReader-Prefix.h"; sourceTree = "<group>"; };
+		90C0A4541B45288900F8C963 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		90C0A4551B45289300F8C963 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISO8601DateFormatter.m; path = "Juan Diego.xcodeproj/../ISO8601DateFormatter.m"; sourceTree = SOURCE_ROOT; };
+		90C0A4581B452D2B00F8C963 /* OnlineGradesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnlineGradesViewController.h; sourceTree = "<group>"; };
+		90C0A4591B452D4A00F8C963 /* OnlineGradesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnlineGradesViewController.m; path = "Juan Diego.xcodeproj/../OnlineGradesViewController.m"; sourceTree = SOURCE_ROOT; };
+		90C0A45C1B452E9C00F8C963 /* EVENTSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVENTSViewController.h; sourceTree = "<group>"; };
+		90C0A45D1B452EB500F8C963 /* EVENTSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EVENTSViewController.m; path = "Juan Diego.xcodeproj/../EVENTSViewController.m"; sourceTree = SOURCE_ROOT; };
+		90D004D01B3B8C6800E64F93 /* popOverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popOverViewController.h; sourceTree = "<group>"; };
+		90F599441B6F5F18009BA534 /* calendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calendarViewController.h; sourceTree = "<group>"; };
+		90F599451B6F5F18009BA534 /* calendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calendarViewController.m; sourceTree = "<group>"; };
+		90F599481B6FCA0C009BA534 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		90F599491B6FCA20009BA534 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		90F5994D1B6FE1C7009BA534 /* borderpx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = borderpx.png; path = images/borderpx.png; sourceTree = "<group>"; };
+		90F599511B6FE4CB009BA534 /* sig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sig.png; path = images/sig.png; sourceTree = "<group>"; };
+		90F599531B6FE556009BA534 /* Sig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sig2.png; path = images/Sig2.png; sourceTree = "<group>"; };
+		90F84E4A1B4520B400BA2851 /* SocialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900CEF8D1B27D89F00F5F5E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900CEFAC1B27D89F00F5F5E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900CEF871B27D89F00F5F5E1 = {
+			isa = PBXGroup;
+			children = (
+				900CEF921B27D89F00F5F5E1 /* Juan Diego */,
+				900CEFB21B27D89F00F5F5E1 /* Juan DiegoTests */,
+				900CEF911B27D89F00F5F5E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		900CEF911B27D89F00F5F5E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900CEF901B27D89F00F5F5E1 /* Juan Diego.app */,
+				900CEFAF1B27D89F00F5F5E1 /* Juan DiegoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900CEF921B27D89F00F5F5E1 /* Juan Diego */ = {
+			isa = PBXGroup;
+			children = (
+				90BB0EAF1B68F9D4004FBC84 /* images */,
+				9037EA7C1B6EDAEE0011E027 /* Main.storyboard */,
+				906E57911B6F0EBC00D8B454 /* LaunchScreen.xib */,
+				900CEF971B27D89F00F5F5E1 /* AppDelegate.h */,
+				900CEF981B27D89F00F5F5E1 /* AppDelegate.m */,
+				90D004D01B3B8C6800E64F93 /* popOverViewController.h */,
+				901426511B3B8CFA007B5339 /* popOverViewController.m */,
+				906E57A51B6F576700D8B454 /* Calender */,
+				90F599471B6FC9B8009BA534 /* About */,
+				90C0A45B1B452E8B00F8C963 /* Events */,
+				90C0A4571B452D1200F8C963 /* PowerSchool */,
+				907F52E11B4525CD0003D84C /* Cal/home */,
+				907F52DD1B4522ED0003D84C /* Homepage */,
+				901426591B3B8E94007B5339 /* Social */,
+				901426531B3B8DE8007B5339 /* JDCHS TV */,
+				900CEFA61B27D89F00F5F5E1 /* Images.xcassets */,
+				900CEF9A1B27D89F00F5F5E1 /* Juan_Diego.xcdatamodeld */,
+				900CEF931B27D89F00F5F5E1 /* Supporting Files */,
+			);
+			path = "Juan Diego";
+			sourceTree = "<group>";
+		};
+		900CEF931B27D89F00F5F5E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				900CEF941B27D89F00F5F5E1 /* Info.plist */,
+				900CEF951B27D89F00F5F5E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		900CEFB21B27D89F00F5F5E1 /* Juan DiegoTests */ = {
+			isa = PBXGroup;
+			children = (
+				900CEFB51B27D89F00F5F5E1 /* Juan_DiegoTests.m */,
+				900CEFB31B27D89F00F5F5E1 /* Supporting Files */,
+			);
+			path = "Juan DiegoTests";
+			sourceTree = "<group>";
+		};
+		900CEFB31B27D89F00F5F5E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				900CEFB41B27D89F00F5F5E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		901426531B3B8DE8007B5339 /* JDCHS TV */ = {
+			isa = PBXGroup;
+			children = (
+				901426541B3B8DFE007B5339 /* StreamViewController.h */,
+				901426571B3B8E2E007B5339 /* StreamViewController.m */,
+			);
+			name = "JDCHS TV";
+			sourceTree = "<group>";
+		};
+		901426591B3B8E94007B5339 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				90F84E4A1B4520B400BA2851 /* SocialViewController.h */,
+				907F52D71B4520E80003D84C /* SocialViewController.m */,
+			);
+			name = Social;
+			sourceTree = "<group>";
+		};
+		906E57A51B6F576700D8B454 /* Calender */ = {
+			isa = PBXGroup;
+			children = (
+				90F599441B6F5F18009BA534 /* calendarViewController.h */,
+				90F599451B6F5F18009BA534 /* calendarViewController.m */,
+			);
+			name = Calender;
+			sourceTree = "<group>";
+		};
+		907F52DD1B4522ED0003D84C /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				907F52DE1B4523010003D84C /* HomepageViewController.h */,
+				907F52DF1B4523100003D84C /* HomepageViewController.m */,
+			);
+			name = Homepage;
+			sourceTree = "<group>";
+		};
+		907F52E11B4525CD0003D84C /* Cal/home */ = {
+			isa = PBXGroup;
+			children = (
+				90C0A44D1B4527FD00F8C963 /* Google Calender */,
+				90773B6B1B45279F0017A770 /* HomeViewController.h */,
+				90C0A44B1B4527CB00F8C963 /* HomeViewController.m */,
+				907F52E21B4525DF0003D84C /* Day.h */,
+				90773B691B4525FD0017A770 /* Day.m */,
+			);
+			name = Cal/home;
+			sourceTree = "<group>";
+		};
+		90BB0EAF1B68F9D4004FBC84 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				903144851B69D43700934EAB /* About.png */,
+				90F5994D1B6FE1C7009BA534 /* borderpx.png */,
+				903144871B69D44D00934EAB /* Grades2.png */,
+				903144891B69D45A00934EAB /* Flex.png */,
+				9031448B1B69D46400934EAB /* fb_icon.png */,
+				9031448D1B69D47000934EAB /* JDTV.png */,
+				90F599531B6FE556009BA534 /* Sig2.png */,
+				9031448F1B69D47900934EAB /* jdoutside.png */,
+				906E57A11B6F535B00D8B454 /* youtube.png */,
+				903144911B69D48200934EAB /* rss.png */,
+				90BB0ECC1B68FC40004FBC84 /* Social.png */,
+				903144951B69D49400934EAB /* Twitter_logo_blue.png */,
+				906E57A31B6F539A00D8B454 /* Instagram.png */,
+				9037EA821B6EF8B00011E027 /* splashScreen.png */,
+				90F599511B6FE4CB009BA534 /* sig.png */,
+				906E579F1B6F51E500D8B454 /* thecube.png */,
+				906E579D1B6F51D900D8B454 /* jdicon.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		90C0A44D1B4527FD00F8C963 /* Google Calender */ = {
+			isa = PBXGroup;
+			children = (
+				90C0A44E1B45281B00F8C963 /* GoogCal.h */,
+				90C0A44F1B45283400F8C963 /* GoogCal.m */,
+				90C0A4531B45287E00F8C963 /* GoogleCalenderReader-Prefix.h */,
+				90C0A4541B45288900F8C963 /* ISO8601DateFormatter.h */,
+				90C0A4551B45289300F8C963 /* ISO8601DateFormatter.m */,
+			);
+			name = "Google Calender";
+			sourceTree = "<group>";
+		};
+		90C0A4571B452D1200F8C963 /* PowerSchool */ = {
+			isa = PBXGroup;
+			children = (
+				90C0A4581B452D2B00F8C963 /* OnlineGradesViewController.h */,
+				90C0A4591B452D4A00F8C963 /* OnlineGradesViewController.m */,
+			);
+			name = PowerSchool;
+			sourceTree = "<group>";
+		};
+		90C0A45B1B452E8B00F8C963 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				90C0A45C1B452E9C00F8C963 /* EVENTSViewController.h */,
+				90C0A45D1B452EB500F8C963 /* EVENTSViewController.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		90F599471B6FC9B8009BA534 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				90F599481B6FCA0C009BA534 /* AboutViewController.h */,
+				90F599491B6FCA20009BA534 /* AboutViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900CEF8F1B27D89F00F5F5E1 /* Juan Diego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900CEFB91B27D89F00F5F5E1 /* Build configuration list for PBXNativeTarget "Juan Diego" */;
+			buildPhases = (
+				900CEF8C1B27D89F00F5F5E1 /* Sources */,
+				900CEF8D1B27D89F00F5F5E1 /* Frameworks */,
+				900CEF8E1B27D89F00F5F5E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Juan Diego";
+			productName = "Juan Diego";
+			productReference = 900CEF901B27D89F00F5F5E1 /* Juan Diego.app */;
+			productType = "com.apple.product-type.application";
+		};
+		900CEFAE1B27D89F00F5F5E1 /* Juan DiegoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900CEFBC1B27D89F00F5F5E1 /* Build configuration list for PBXNativeTarget "Juan DiegoTests" */;
+			buildPhases = (
+				900CEFAB1B27D89F00F5F5E1 /* Sources */,
+				900CEFAC1B27D89F00F5F5E1 /* Frameworks */,
+				900CEFAD1B27D89F00F5F5E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900CEFB11B27D89F00F5F5E1 /* PBXTargetDependency */,
+			);
+			name = "Juan DiegoTests";
+			productName = "Juan DiegoTests";
+			productReference = 900CEFAF1B27D89F00F5F5E1 /* Juan DiegoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900CEF881B27D89F00F5F5E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Halston van der Sluys";
+				TargetAttributes = {
+					900CEF8F1B27D89F00F5F5E1 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = HH6WY34454;
+					};
+					900CEFAE1B27D89F00F5F5E1 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 900CEF8F1B27D89F00F5F5E1;
+					};
+				};
+			};
+			buildConfigurationList = 900CEF8B1B27D89F00F5F5E1 /* Build configuration list for PBXProject "Juan Diego" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900CEF871B27D89F00F5F5E1;
+			productRefGroup = 900CEF911B27D89F00F5F5E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900CEF8F1B27D89F00F5F5E1 /* Juan Diego */,
+				900CEFAE1B27D89F00F5F5E1 /* Juan DiegoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900CEF8E1B27D89F00F5F5E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F5994E1B6FE1C7009BA534 /* borderpx.png in Resources */,
+				9037EA831B6EF8B00011E027 /* splashScreen.png in Resources */,
+				9031448C1B69D46400934EAB /* fb_icon.png in Resources */,
+				903144881B69D44D00934EAB /* Grades2.png in Resources */,
+				9031448E1B69D47000934EAB /* JDTV.png in Resources */,
+				903144961B69D49400934EAB /* Twitter_logo_blue.png in Resources */,
+				90BB0ECD1B68FC40004FBC84 /* Social.png in Resources */,
+				9037EA7D1B6EDAEE0011E027 /* Main.storyboard in Resources */,
+				9031448A1B69D45A00934EAB /* Flex.png in Resources */,
+				906E57A21B6F535B00D8B454 /* youtube.png in Resources */,
+				906E57A41B6F539A00D8B454 /* Instagram.png in Resources */,
+				903144861B69D43700934EAB /* About.png in Resources */,
+				90F599521B6FE4CB009BA534 /* sig.png in Resources */,
+				906E57921B6F0EBC00D8B454 /* LaunchScreen.xib in Resources */,
+				900CEFA71B27D89F00F5F5E1 /* Images.xcassets in Resources */,
+				903144921B69D48200934EAB /* rss.png in Resources */,
+				906E579E1B6F51D900D8B454 /* jdicon.png in Resources */,
+				90F599541B6FE556009BA534 /* Sig2.png in Resources */,
+				906E57A01B6F51E500D8B454 /* thecube.png in Resources */,
+				903144901B69D47900934EAB /* jdoutside.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900CEFAD1B27D89F00F5F5E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900CEF8C1B27D89F00F5F5E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907F52E01B4523100003D84C /* HomepageViewController.m in Sources */,
+				90C0A4561B45289300F8C963 /* ISO8601DateFormatter.m in Sources */,
+				900CEF991B27D89F00F5F5E1 /* AppDelegate.m in Sources */,
+				900CEF9C1B27D89F00F5F5E1 /* Juan_Diego.xcdatamodeld in Sources */,
+				90C0A44C1B4527CB00F8C963 /* HomeViewController.m in Sources */,
+				90C0A45E1B452EB500F8C963 /* EVENTSViewController.m in Sources */,
+				90F5994A1B6FCA20009BA534 /* AboutViewController.m in Sources */,
+				90773B6A1B4525FD0017A770 /* Day.m in Sources */,
+				901426581B3B8E2E007B5339 /* StreamViewController.m in Sources */,
+				90F599461B6F5F18009BA534 /* calendarViewController.m in Sources */,
+				907F52D81B4520E80003D84C /* SocialViewController.m in Sources */,
+				90C0A45A1B452D4A00F8C963 /* OnlineGradesViewController.m in Sources */,
+				901426521B3B8CFA007B5339 /* popOverViewController.m in Sources */,
+				90C0A4501B45283400F8C963 /* GoogCal.m in Sources */,
+				900CEF961B27D89F00F5F5E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900CEFAB1B27D89F00F5F5E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900CEFB61B27D89F00F5F5E1 /* Juan_DiegoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		900CEFB11B27D89F00F5F5E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900CEF8F1B27D89F00F5F5E1 /* Juan Diego */;
+			targetProxy = 900CEFB01B27D89F00F5F5E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		900CEFB71B27D89F00F5F5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		900CEFB81B27D89F00F5F5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900CEFBA1B27D89F00F5F5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1",
+				);
+				INFOPLIST_FILE = "Juan Diego/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		900CEFBB1B27D89F00F5F5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1",
+				);
+				INFOPLIST_FILE = "Juan Diego/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		900CEFBD1B27D89F00F5F5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Juan DiegoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juan Diego.app/Juan Diego";
+			};
+			name = Debug;
+		};
+		900CEFBE1B27D89F00F5F5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Juan DiegoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juan Diego.app/Juan Diego";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900CEF8B1B27D89F00F5F5E1 /* Build configuration list for PBXProject "Juan Diego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900CEFB71B27D89F00F5F5E1 /* Debug */,
+				900CEFB81B27D89F00F5F5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900CEFB91B27D89F00F5F5E1 /* Build configuration list for PBXNativeTarget "Juan Diego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900CEFBA1B27D89F00F5F5E1 /* Debug */,
+				900CEFBB1B27D89F00F5F5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900CEFBC1B27D89F00F5F5E1 /* Build configuration list for PBXNativeTarget "Juan DiegoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900CEFBD1B27D89F00F5F5E1 /* Debug */,
+				900CEFBE1B27D89F00F5F5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		900CEF9A1B27D89F00F5F5E1 /* Juan_Diego.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				900CEF9B1B27D89F00F5F5E1 /* Juan_Diego.xcdatamodel */,
+			);
+			currentVersion = 900CEF9B1B27D89F00F5F5E1 /* Juan_Diego.xcdatamodel */;
+			path = Juan_Diego.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 900CEF881B27D89F00F5F5E1 /* Project object */;
+}
