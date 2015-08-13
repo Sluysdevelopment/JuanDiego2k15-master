@@ -29,9 +29,9 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "splashScreen-2.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
+      "filename" : "splashScreen-2.png",
       "scale" : "2x"
     },
     {
@@ -87,6 +87,7 @@
       "orientation" : "portrait",
       "idiom" : "iphone",
       "extent" : "full-screen",
+      "filename" : "splashScreen-4.png",
       "subtype" : "retina4",
       "scale" : "2x"
     },

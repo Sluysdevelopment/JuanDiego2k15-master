@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "266F223EDFD8FCC4273AC667B376EA74C08D407C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "11B8AE6453DBED027D30AAF3836D2671BF87FBBA" : 0,
+    "266F223EDFD8FCC4273AC667B376EA74C08D407C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "84ADE7B9-B3D0-40DA-88BC-922AD2537894",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "11B8AE6453DBED027D30AAF3836D2671BF87FBBA" : "Juan%20Diego",
+    "266F223EDFD8FCC4273AC667B376EA74C08D407C" : "JuanDiego2k15-master\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Juan Diego",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Juan Diego.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Sluysdevelopment\/JuanDiego2k15.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11B8AE6453DBED027D30AAF3836D2671BF87FBBA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Sluysdevelopment\/JuanDiego2k15-master.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "266F223EDFD8FCC4273AC667B376EA74C08D407C"
+    }
+  ]
+}

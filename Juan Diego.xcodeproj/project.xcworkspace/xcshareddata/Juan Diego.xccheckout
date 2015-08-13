@@ -12,20 +12,24 @@
 	<dict>
 		<key>11B8AE6453DBED027D30AAF3836D2671BF87FBBA</key>
 		<string>https://github.com/Sluysdevelopment/JuanDiego2k15.git</string>
+		<key>266F223EDFD8FCC4273AC667B376EA74C08D407C</key>
+		<string>https://github.com/Sluysdevelopment/JuanDiego2k15-master.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Juan Diego.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>11B8AE6453DBED027D30AAF3836D2671BF87FBBA</key>
+		<string>../../../Juan%20Diego</string>
+		<key>266F223EDFD8FCC4273AC667B376EA74C08D407C</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Sluysdevelopment/JuanDiego2k15.git</string>
+	<string>https://github.com/Sluysdevelopment/JuanDiego2k15-master.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>11B8AE6453DBED027D30AAF3836D2671BF87FBBA</string>
+	<string>266F223EDFD8FCC4273AC667B376EA74C08D407C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>11B8AE6453DBED027D30AAF3836D2671BF87FBBA</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Juan%20Diego</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>266F223EDFD8FCC4273AC667B376EA74C08D407C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JuanDiego2k15-master</string>
 		</dict>
 	</array>
 </dict>
